@@ -1,0 +1,88 @@
+a{
+    font-size:larger;
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+#visiting{
+    color: rgb(12, 108, 203);
+}
+
+h1,h2,h3,footer {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: bolder;
+  }
+  .logo{
+    height: 40px;
+    width: 200px;
+  }
+  img{
+    font-size: larger;
+  }
+  
+  #hiddenwords{
+    opacity: 0.5;
+  }
+.reviews-box{
+    display: flex;
+    height: 200px;
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 150px;
+}
+.reviews-box1{
+    border: 2px solid ;
+    height: 160px;
+    width: auto;
+    flex-direction:row;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 35px;
+    align-content: center;
+}
+.section{
+    display: flex;
+    height: 380px;
+    width: auto;
+    border: 2px solid ;
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+}
+.projects{
+padding: 20px;
+width: 300px;
+}
+.experience{
+    border: 2px solid;
+    padding: 22px;
+    height: max-content;
+
+}
+.education{
+    padding: 20px;
+
+}
+.navbar{
+    height: 250px;
+    width: auto;
+    display: block;
+    margin: 40px;
+    font-size: larger;
+}
+#heading{
+display: block;
+height: 200px;
+width: auto;
+align-content: center;
+justify-items: center;
+text-align: center;
+}
+body{
+    border: 2px solid;
+    margin: 40px;
+    text-transform: capitalize;
+}
+footer{
+    margin: 70px;
+}
