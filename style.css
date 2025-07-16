@@ -12,6 +12,9 @@ h1,h2,h3,footer {
     font-family: "Gloria Hallelujah", cursive;
     font-weight: bolder;
   }
+  .pages{
+    text-align: right;
+  }
   .logo{
     height: 40px;
     width: 200px;
@@ -82,7 +85,138 @@ body{
     border: 2px solid;
     margin: 40px;
     text-transform: capitalize;
+    padding-top: -10px;
 }
 footer{
     margin: 70px;
+}
+@media(max-width:500px){
+body{
+    margin: 0px;
+    font-size:small;
+    border: none;
+    /* border: 5px solid red; */
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    /* margin: auto; */
+    /* float: left; */
+}
+.pages
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    height: 80px;
+    width: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.links{
+    float: right;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    margin-top: 20px;
+}
+.section{
+    float: right;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    border: none;
+    text-align: center;
+}
+.projects{
+    float: right;
+    flex-wrap: wrap;
+    padding: 0px;
+    height: 220px;
+    background-color: lightgray;
+
+}
+.experience{
+    float: right;
+    flex-wrap: wrap;
+    height: 300px;
+    padding: 0px;
+    border: none;
+    background-color: lightgray;
+}
+
+#review{
+    float: right;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 1500px;
+}
+.reviews-box{
+    float: right;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.reviews-box1{
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+footer{
+    /* float: right;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    height: 50px;
+}
+#heading{
+    margin-top: -30px;
+    font-size: small;
+    height: 50px;
+    width: 250px;
+    
+    /* border: 2px solid yellow; */
+}
+h1{
+    padding-top: 10px;
+}
+h2{
+    text-align: center;
+    background-color: white;
+}
+.education{
+    float: right;
+    flex-wrap: wrap;
+    height: 190px;
+    padding: 0px;
+    text-align: left;
+
+}
 }
